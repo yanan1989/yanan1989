@@ -3,20 +3,20 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Yanan Wang
-    tagline: Reseach engineer
+    tagline: Research engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     # email: xxx@.com
     # phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    website: sites.google.com/view/yanan-wang/ #do not add http://
     # linkedin: alandoe
     # xing: alandoe
     github: yanan1989
@@ -56,7 +56,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a research engineer at KDDI Research, Inc. from 2018; I am working as a visiting researcher at SNAP, Stanford University, doing the visual commonsense reasoning task.
+      I am a research engineer at KDDI Research from 2018; I am working as a visiting researcher at SNAP, Stanford University, doing the visual commonsense reasoning task.
 education:
     title: Education
     info:
@@ -80,14 +80,24 @@ experiences:
     info:
       - role: Visiting scholar
         time: 2020 - Present
-        university: Stanford University
+        company: Stanford University
         details: |
-          I am working as a visiting researcher at SNAP, Stanford University, doing the visual commonsense reasoning task.
+
       - role: Research engineer
-        time: 2017 - Present
+        time: 2018 - Present
         company: KDDI Research, Japan
         details: |
-          
+
+      - role: Server operations engineer
+        time: 2017 - 2018
+        company: KDDI Corporation, Japan
+        details: |
+
+      - role: Software engineer
+        time: 2015 - 2017
+        company: SpeakBUDDY Ltd., Japan
+        details: |
+          I worked in development of the front end of a mobile application for iOS using Swift language. 
           
 
 # projects:
@@ -120,32 +130,30 @@ experiences:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+
     papers:
       - title: "VAE-based Adversarial Multimodal Domain Transfer for Video-level Sentiment Analysis"
-        link: "#"
-        authors: . Y. Wang, J. Wu, K. Furumai, S. Wada and S. Kurihara
+        link: "https://ieeexplore.ieee.org/document/9772490"
+        authors: . Yanan Wang, Jianming Wu, Kazuaki Furumai, Shinya Wada, Satoshi Kurihara
         conference: IEEE Access, 2022
 
       - title: "LDNN: Linguistic Knowledge Injectable Deep Neural Network for Group Cohesiveness Understanding"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3382507.3418830"
         authors: Yanan Wang, Jianming Wu, Jinfa Huang, Gen Hattori, Yasuhiro Takishima, Shinya Wada, Rui Kimura, Jie Chen, Satoshi Kurihara
         conference: ACM ICMI 2020
 
       - title: "Implicit Knowledge Injectable Cross Attention Audiovisual Model for Group Emotion Recognition"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3382507.3417960"
         authors: Yanan Wang, Jianming Wu, Panikos Heracleous, Shinya Wada, Rui Kimura, Satoshi Kurihara
         conference: ACM ICMI 2020
 
       - title: "Multi-Attention Fusion Network for Video-based Emotion Recognition"
-        link: "#"
+        link: "https://dl.acm.org/doi/10.1145/3340555.3355720"
         authors: Yanan Wang, Jianming Wu and Keiichiro Hoashi
         conference: ACM ICMI 2019
 
       - title: "Lightweight Deep Convolutional Neural Networks for Facial Expression Recognition"
-        link: "#"
+        link: "https://ieeexplore.ieee.org/document/8901820"
         authors: Yanan Wang, Jianming Wu and Keiichiro Hoashi
         conference: IEEE MMSP 2019
 
@@ -155,16 +163,16 @@ skills:
 
     toolset:
       - name: Python & Pytorch 
-        # level: 90%
+        level: 90%
 
       - name: Swift
-        # level: 90%
+        level: 90%
       
       - name: Java & C++
-        # level: 90%
+        level: 80%
 
       - name: JavaScript & HTML5 & CSS
-        # level: 80%
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
