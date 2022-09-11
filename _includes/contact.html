@@ -96,6 +96,12 @@
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
+    
+    {% if sidebar.googlescholar %}
+    <li class="googlescholar">
+      <a href="https://scholar.google.co.jp/citations?user={{ sidebar.googlescholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+    </li>
+    {% endif %}
 
   </ul>
 </div><!--//contact-container-->
