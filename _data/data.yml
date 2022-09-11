@@ -1,0 +1,170 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Yanan Wang
+    tagline: Reseach engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    # email: xxx@.com
+    # phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    # linkedin: alandoe
+    # xing: alandoe
+    github: yanan1989
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Chinese
+          level: Native
+
+        - idiom: Japanese
+          level: Bilingual
+
+        - idiom: English
+          level: Upper Intermediate
+
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
+
+    #     - item: Snowboarding
+    #       link:
+
+    #     - item: Cooking
+    #       link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am a research engineer at KDDI Research, Inc. from 2018; I am working as a visiting researcher at SNAP, Stanford University, doing the visual commonsense reasoning task.
+education:
+    title: Education
+    info:
+      - degree: Pursing a Ph.D. in Industrial Engineering
+        university: Keio University
+        time: 2019 - Present
+        details: |
+          GPA: 4.0/4.0
+      - degree: Master of Engineering
+        university: The University of Electro-Communications
+        time: 2015 - 2017
+        details: |
+          GPA: 4.0/4.0
+      - degree: Bachelor of Engineering
+        university: Aoyama Gakuin University	
+        time: 2011 - 2015
+        details: |
+          GPA: 3.2/4.0 
+experiences:
+    title: Experiences
+    info:
+      - role: Visiting scholar
+        time: 2020 - Present
+        university: Stanford University
+        details: |
+          I am working as a visiting researcher at SNAP, Stanford University, doing the visual commonsense reasoning task.
+      - role: Research engineer
+        time: 2017 - Present
+        company: KDDI Research, Japan
+        details: |
+          
+          
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: "VAE-based Adversarial Multimodal Domain Transfer for Video-level Sentiment Analysis"
+        link: "#"
+        authors: . Y. Wang, J. Wu, K. Furumai, S. Wada and S. Kurihara
+        conference: IEEE Access, 2022
+
+      - title: "LDNN: Linguistic Knowledge Injectable Deep Neural Network for Group Cohesiveness Understanding"
+        link: "#"
+        authors: Yanan Wang, Jianming Wu, Jinfa Huang, Gen Hattori, Yasuhiro Takishima, Shinya Wada, Rui Kimura, Jie Chen, Satoshi Kurihara
+        conference: ACM ICMI 2020
+
+      - title: "Implicit Knowledge Injectable Cross Attention Audiovisual Model for Group Emotion Recognition"
+        link: "#"
+        authors: Yanan Wang, Jianming Wu, Panikos Heracleous, Shinya Wada, Rui Kimura, Satoshi Kurihara
+        conference: ACM ICMI 2020
+
+      - title: "Multi-Attention Fusion Network for Video-based Emotion Recognition"
+        link: "#"
+        authors: Yanan Wang, Jianming Wu and Keiichiro Hoashi
+        conference: ACM ICMI 2019
+
+      - title: "Lightweight Deep Convolutional Neural Networks for Facial Expression Recognition"
+        link: "#"
+        authors: Yanan Wang, Jianming Wu and Keiichiro Hoashi
+        conference: IEEE MMSP 2019
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Pytorch 
+        # level: 90%
+
+      - name: Swift
+        # level: 90%
+      
+      - name: Java & C++
+        # level: 90%
+
+      - name: JavaScript & HTML5 & CSS
+        # level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
