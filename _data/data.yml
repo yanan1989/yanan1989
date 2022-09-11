@@ -16,7 +16,7 @@ sidebar:
     # phone: 012 345 6789
     # timezone: America/Cancun Timezone
     # citizenship:
-    website: sites.google.com/view/yanan-wang/ #do not add http://
+    # website: sites.google.com/view/yanan-wang/ #do not add http://
     # linkedin: alandoe
     # xing: alandoe
     github: yanan1989
@@ -41,17 +41,20 @@ sidebar:
         - idiom: English
           level: Upper Intermediate
 
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: Climbing
-    #       link:
+    interests:
+      title: Research Interests
+      info:
+        - item: Multimodal representation learning
+          link:
 
-    #     - item: Snowboarding
-    #       link:
+        - item: Affective computing
+          link:
 
-    #     - item: Cooking
-    #       link:
+        - item: Graph neural network
+          link:
+        
+        - item: Knowledge graph
+          link:
 
 career-profile:
     title: Career Profile
@@ -97,7 +100,7 @@ experiences:
         time: 2015 - 2017
         company: SpeakBUDDY Ltd., Japan
         details: |
-          I worked in development of the front end of a mobile application for iOS using Swift language. 
+# I worked in development of the front end of a mobile application for iOS using Swift language. 
           
 
 # projects:
@@ -166,13 +169,13 @@ skills:
         level: 90%
 
       - name: Swift
-        level: 90%
+        level: 85%
       
       - name: Java & C++
         level: 80%
 
       - name: JavaScript & HTML5 & CSS
-        level: 80%
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
