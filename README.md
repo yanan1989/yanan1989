@@ -1,4 +1,13 @@
-### Homepage
+## [Homepage](https://yanan1989.github.io/)
+
+## To preview/edit localy with docker
+
+```sh
+docker-compose up
+```
+
+*docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
+Changes *_data/data.yml* will be visible after a while.
 <!-- <a href="https://jekyll-themes.com">
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
