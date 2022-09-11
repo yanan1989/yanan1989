@@ -134,7 +134,7 @@ publications:
     papers:
       - title: "VAE-based Adversarial Multimodal Domain Transfer for Video-level Sentiment Analysis"
         link: "https://ieeexplore.ieee.org/document/9772490"
-        authors: . Yanan Wang, Jianming Wu, Kazuaki Furumai, Shinya Wada, Satoshi Kurihara
+        authors: Yanan Wang, Jianming Wu, Kazuaki Furumai, Shinya Wada, Satoshi Kurihara
         conference: IEEE Access, 2022
 
       - title: "LDNN: Linguistic Knowledge Injectable Deep Neural Network for Group Cohesiveness Understanding"
