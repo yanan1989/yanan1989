@@ -136,6 +136,11 @@ publications:
     intro: |
 
     papers:
+      - title: "VideoAdviser: Video Knowledge Distillation for Multimodal Transfer Learning"
+        link: "https://ieeexplore.ieee.org/document/10136716"
+        authors: Yanan Wang, Donghuo Zeng, Shinya Wada, Satoshi Kurihara
+        conference: IEEE Access, 2023
+       
       - title: "VAE-based Adversarial Multimodal Domain Transfer for Video-level Sentiment Analysis"
         link: "https://ieeexplore.ieee.org/document/9772490"
         authors: Yanan Wang, Jianming Wu, Kazuaki Furumai, Shinya Wada, Satoshi Kurihara
